@@ -1,0 +1,122 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin:  10px 30px 40px 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #4ECCA3;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 0.4rem;
+}
+
+img {
+  max-width: 80%;
+}
+
+footer {
+  margin-top: 3%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+.refresh{
+  margin-top: 3%;
+  text-align: center;
+  
+}
+.refresh h3{
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 0 #232931;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+@media screen and (max-width:758px) {
+  img{
+    width: 200px;
+  }
+  .container{
+    width: 100%;
+  }
+  h1{
+    font-size: 4rem;
+    margin:  10px 30px 30px 30px;
+  }
+  
+}
+@media screen and (max-width:464px) {
+  img{
+    width: 160px;
+  }
+  .container{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 3rem;
+    margin:  10px 30px 25px 30px;
+  }
+  .refresh h3{
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .wrapper{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:367px) {
+  img{
+    width: 130px;
+  }
+  .container{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 2rem;
+    margin:  10px 30px 20px 30px;
+  }
+  .refresh h3{
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  
+}
+
